@@ -41,7 +41,7 @@ Onde será possível aprender e práticar alguns conceitos básicos do NodeJS
 - [x] Deve ser possível Realizar um depósito.
 - [x] Deve ser possível realizar um saque.
 - [x] Deve ser possível buscar o extrato bancário do cliente por data.
-- [x] Deve ser possível atualizar dados da conta do cliente .
+- [x] Deve ser possível atualizar dados da conta do cliente.
 - [x] Deve ser possível obter dados da conta do cliente.
 - [x] Deve ser possível deletar uma conta.
 - [x] Deve ser possível obter o saldo da conta.
@@ -52,10 +52,10 @@ Onde será possível aprender e práticar alguns conceitos básicos do NodeJS
 
 - [x] Não deve ser possível cadastrar uma conta com cpf já existente.
 - [x] Não deve ser possível fazer depósito em uma conta não existente.
-- [x] Não deve ser possível buscar extrato em uma conta não existente .
-- [x] Não deve ser possível fazer um saque em uma conta não existente .
-- [x] Não deve ser possível fazer saque quando o saldo for insuficiente .
-- [x] Não deve ser possível excluir uma conta não existente .
+- [x] Não deve ser possível buscar extrato em uma conta não existente.
+- [x] Não deve ser possível fazer um saque em uma conta não existente.
+- [x] Não deve ser possível fazer saque quando o saldo for insuficiente.
+- [x] Não deve ser possível excluir uma conta não existente.
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
@@ -79,15 +79,12 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 ```bash
 # Clone este repositório
 $ git clone https://github.com/juniorlfn/finance-api
-# Entre na pasta
-$ cd Finance Api
+# Mude o diretório para a pasta do projeto
+$ cd finance-api
 # Instale as dependências
-$ yarn
-# Para iniciar o projeto
-$ yarn start
-# Para iniciar como desenvolvedor
-$ yarn dev
-# O app vai inicializar em <http://localhost:3000>
+$ npm install
+# Para iniciar
+$ npm run dev
 ```
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
