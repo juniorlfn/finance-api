@@ -88,7 +88,7 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/thiilins/finapi
+$ git clone https://github.com/juniorlfn/finance-api
 # Entre na pasta
 $ cd finapi
 # Instale as dependências
